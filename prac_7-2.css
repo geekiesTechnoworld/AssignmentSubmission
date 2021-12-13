@@ -1,0 +1,57 @@
+
+/* prac_7_2html file_css */
+
+ header{   
+    background-color: dodgerblue;
+   }
+   .center{
+    display: inline-block;
+    position: absolute;
+    left: 590px;
+    top: 43px;
+}
+   .center div{
+    text-align: center;
+}
+.main{
+  position: absolute;
+  left: 700px;
+  top: 240px;
+}
+.container div{
+    background-color: #ffffff;
+    width: 400px;
+    border: 3px solid green;
+    margin: 20px;
+    position: absolute;
+    left: 530px;
+    top: 243px;
+  }
+  input {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    background-color: gainsboro;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #1b63c0;
+    color: #ffffff;
+    margin-left: 40%;
+    max-width:fit-content ;
+  }
+  
+  /* Style the container for inputs */
+  .container {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  a{
+      color: rgb(39, 48, 184);
+  }
+  
